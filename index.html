@@ -8,16 +8,52 @@
   align-items: center;
   justify-content: center;
 }
+
+.border-glow {
+  border: 50px solid blue;
+  animation: 4s infinite glow;
+}
+@keyframes glow {
+  0% {
+    border-color: 158, 102, 212;
+  }
+  25% {
+    border-color: 219, 197, 240;
+  }
+  75% {
+    border-color: 197, 235, 240;
+  }
+  100% {
+    border-color: purple;
+  }
+}
+@-webkit-keyframes glow {
+  0% {
+    border-color: 158, 102, 212;
+  }
+  25% {
+    border-color: 219, 197, 240;
+  }
+  75% {
+    border-color: 197, 235, 240;
+  }
+  100% {
+    border-color: purple;
+  }
 </style>
       <head>
       <title></title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8">   
       </head>
       <body>
-       <div class="container">
-  <div>
  
-<iframe src="https://saanviram.github.io/dayssincelast/testbox.html"></iframe>
+     <div class="container"> 
+     <div class="border-glow">
+    
+<div>
+<div> 
+<iframe src="https://saanviram.github.io/dayssincelast/testbox.html" style="height:100px;width:200px;border:none;"></iframe>
 </div>
-</html>
+</div>
 
+</html>
